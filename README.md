@@ -9,7 +9,7 @@ Bu Chrome uzantısı, Steam mağaza sayfalarında görüntülenen fiyatları oto
 - Sayfa dinamik olarak değiştiğinde (örneğin arama yapılınca) fiyatlar tekrar çevrilir.
 - Güncel döviz kuru verisi `https://api.exchangerate-api.com/` üzerinden alınır.
 
-## 🧪 Nasıl Kurulur?
+##  Nasıl Kurulur?
 1. Bu repoyu indir ya da klonla
 2. Chrome tarayıcında chrome://extensions/ sayfasına git.
 3. Sağ üstten Geliştirici Modunu aktif et.
