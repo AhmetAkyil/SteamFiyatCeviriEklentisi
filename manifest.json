@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Steam TL Fiyat Dönüştürücü",
+  "version": "1.0",
+  "description": "Steam sayfalarındaki fiyatları Türk Lirasına çevirir.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://store.steampowered.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://store.steampowered.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

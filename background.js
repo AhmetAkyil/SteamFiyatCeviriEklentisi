@@ -1,0 +1,1 @@
+// Boş background.js
